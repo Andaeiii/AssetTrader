@@ -1,0 +1,24 @@
+.bgcrumbsx{
+	background-image:url(/imgs/brdcrumbstrip.png); 
+	background-repeat: repeat-x;
+}
+
+.groupedbtns{disblay:inline-block; /*height: 40px;*/}
+.groupedbtns a{
+    width:50% !important; 
+    float: left;
+    height:40px;
+    padding:10px 5px 10px 15px !important;
+}
+
+.groupedbtns a:nth-child(even){border-left: dotted 1px #cccccc;}
+
+.sidebar .nav li{border-bottom: dotted 1px #cccccc;}
+
+.clrall{clear:both;}
+
+.flobj{display:block; float: left !important; padding:5px 10px !important;}
+
+.sidebar{border-right: dotted 1px #cccccc;}
+
+.assldr{display:none; }

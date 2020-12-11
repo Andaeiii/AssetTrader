@@ -1,0 +1,1193 @@
+/* ----------------------------------
+
+Name: main.css
+Version: 1.0
+
+-------------------------------------
+
+Table of contents
+        
+    01. Navbar
+    02. Slider
+    03. Features
+    04. Join
+    05. Get Started
+    06. Customer
+    07. Testimonials
+    08. Our Team
+    09. Worked
+    10. Download
+    11. Video
+    12. Media
+    13. Our Price
+    14. Clients
+    15. Contact Us
+    16. Footer
+    17. Page Loading
+    18. Media Query
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fbfffe;
+}
+
+/*--------------------------------------------------
+[1. Start Navbar]
+--------------------------------------------------*/
+.navbar {
+    padding: 20px 0;
+    background: linear-gradient(135deg, rgba(42, 36, 43, 0) 0%, rgba(42, 36, 43, 0) 100%);
+}
+.navbar .nav-item {
+    padding: 0;
+    margin: 0;
+}
+.navbar .nav-item .nav-link {
+    padding: 0;
+    margin: 0 0 0 45px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .nav-item .nav-link:hover {
+    color: #507bf5;
+}
+.navbar .btn-1 {
+    background: #ffffff;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0);
+    text-decoration: none;
+    color: #757575;
+    border-radius: 65px;
+    padding: 10px 45px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 45px;
+    transition: all 0.2s ease-in;
+
+}
+.navbar .btn-1:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 30px 0 rgba(0,0,0,0);
+    color: #ffffff;
+
+}
+
+/*--------------------------------------------------
+[2. Start Slider]
+--------------------------------------------------*/
+.slider {
+    background: url("/front/imgs/slider.png") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.slider .content {
+    padding-top: 20px;
+    margin-top: 40px;
+}
+.slider .content h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+
+}
+.slider .content p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.slider .btn-g {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 35px;
+    text-decoration: none;
+    box-shadow: 0px 15px 51px 0px rgba(0,0,0,0.24);
+}
+
+/*--------------------------------------------------
+[3. Start Features]
+--------------------------------------------------*/
+.features {
+    padding: 120px 0;
+}
+.features .heading {
+    margin-bottom: 40px;
+}
+.features .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #4a545e;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.features .heading .line {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    height: 2px;
+    width: 50px;
+}
+.features .heading p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 25px;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+.features .box {
+    box-shadow: 2px 2px 20px 0 rgba(0,0,0,0.07);
+    padding: 50px 10px;
+    margin: 10px 15px;
+    border-radius: 5px;
+}
+.features .box h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #596570;
+    margin: 25px 0 10px;
+}
+.features .box p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 26px;
+    margin: 0;
+}
+
+/*--------------------------------------------------
+[4. Start Join]
+--------------------------------------------------*/
+.join {
+    padding-top: 120px;
+}
+.join .content {
+    box-shadow: 1px 1px 30px 0 rgba(0,0,0,0.08);
+    border-radius: 5px;
+    padding: 50px;
+}
+.join .content .box {
+    padding-right: 30px;
+    padding-left: 10px;
+}
+.join .content .left-box {
+    border-right: 1px solid #eeeded;
+}
+.join .content .box img {
+    margin-bottom: 25px;
+}
+.join .content .box h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #00a99d;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.join .content .box .dark-pink {
+    color: #67d690;
+}
+.join .content .box p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 26px;
+    margin: 0;
+}
+
+/*--------------------------------------------------
+[5. Start Get Started]
+--------------------------------------------------*/
+.get-started {
+    padding: 120px 0;
+    background: url("/front/imgs/get-started.png") center center no-repeat;
+    background-size: cover;
+}
+.get-started h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.get-started p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 15px;
+}
+.get-started .btn-1 {
+    background: #ffffff;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0);
+    text-decoration: none;
+    color: #757575;
+    border-radius: 65px;
+    padding: 10px 45px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    display: inline-block;
+    transition: all 0.2s ease-in;
+
+}
+.get-started .btn-1:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 30px 0 rgba(0,0,0,0);
+    color: #ffffff;
+}
+
+/*--------------------------------------------------
+[6. Start Customer]
+--------------------------------------------------*/
+.customer {
+    padding: 120px 0;
+    background: url("/front/imgs/map-dots.png") center center no-repeat;
+}
+.customer .left .top {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+.customer .left h3 {
+    font-size: 80px;
+    color: #4a545e;
+    font-weight: 400;
+}
+.customer .left h3 span {
+    font-weight: 700;
+}
+.customer .left h4 {
+    font-size: 25px;
+    color: #4a545e;
+    font-weight: 300;
+}
+
+.customer .left h4 span {
+    font-weight: 700;
+    margin-top: 15px;
+}
+.customer .left p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 26px;
+    margin: 20px 0 0;
+}
+.customer .right h5 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #4a545e;
+    margin-top: 20px;
+}
+.customer .right .p-1 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #8995a1;
+}
+.customer .right .p-2 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------------
+[7. Start Testimonials]
+--------------------------------------------------*/
+.testimonials {
+    padding: 120px 0 150px;
+    background: url("/front/imgs/testimoials.png") center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+.testimonials .carousel-item h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 6px;
+}
+.testimonials .carousel-item h4 {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.testimonials .carousel-item p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 15px;
+}
+.testimonials .carousel-indicators {
+    bottom: -40px;
+}
+.testimonials .carousel-indicators li {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    height: 12px;
+    width: 12px;
+    margin: 0 6px;
+}
+.testimonials .carousel-indicators .active {
+    background-color: #ffffff;
+}
+.testimonials .control span {
+    cursor: pointer;
+    margin-top: 150px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #6a83eb;
+    background: #ffffff;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
+    opacity: 1 !important;
+}
+
+/*--------------------------------------------------
+[8. Start Our Team]
+--------------------------------------------------*/
+.our-team {
+    padding: 120px 0;
+}
+.our-team .heading {
+    margin-bottom: 40px;
+}
+.our-team .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #4a545e;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.our-team .heading .line {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    height: 2px;
+    width: 50px;
+}
+.our-team .heading p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 25px;
+    padding: 0;
+    margin: 15px 0 0;
+}
+.our-team .box {
+    box-shadow: 2px 2px 20px 0 rgba(0,0,0,0.09);
+    padding: 50px 5px;
+    margin: 10px 15px;
+    border-radius: 10px;
+}
+.our-team .box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a545e;
+    margin: 0;
+    padding: 0;
+    margin: 20px 0 2px;
+}
+.our-team .box span {
+    font-size: 14px;
+    font-weight: 300;
+    color: #7a838d;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.our-team .box .gray-line {
+    background: #cdcdcd;
+    height: 1px;
+    width: 110px;
+    margin-top: 20px;
+}
+.our-team .box img {
+    transition: all .4s ease-in-out;
+}
+.our-team .box:hover img {
+    transform: scale(1.06);
+}
+.our-team .box .social {
+    margin-top: 20px;
+}
+.our-team .box .social .icon {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    width: 44px;
+    height: 44px;
+    line-height: 20px;
+    border-radius: 50%;
+    margin: 0 6px;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.09);
+    transition: all .3s ease-in-out;
+}
+.our-team .box .social .icon:hover {
+    opacity: .8;
+}
+.our-team .box .social i {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+/*--------------------------------------------------
+[9. Start Worked]
+--------------------------------------------------*/
+.worked {
+    padding: 0 0 120px 0;
+}
+.worked .box h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #4a545e;
+    margin-bottom: 20px;
+}
+.worked .box .line {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    height: 2px;
+    width: 50px;
+}
+.worked .box p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 26px;
+    margin: 20px 0 0;
+    margin-bottom: 40px;
+}
+.worked .box .btn-1 {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 35px;
+    box-shadow: 0px 15px 51px 0px rgba(0,0,0,0.24);
+    text-decoration: none;
+    margin-top: 10px;
+    transition: all 0.2s ease-in;
+}
+
+
+/*--------------------------------------------------
+[10. Start Download]
+--------------------------------------------------*/
+.download {
+    padding: 120px 0;
+    background: url('/front/imgs/download.png') center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+.download  h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.download  .btn-1 {
+    background: #ffffff;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0);
+    text-decoration: none;
+    color: #757575;
+    border-radius: 65px;
+    padding: 10px 45px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.2s ease-in;
+
+}
+.download .content .btn-1:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 30px 0 rgba(0,0,0,0);
+    color: #ffffff;
+}
+
+
+/*--------------------------------------------------
+[11. Start Video]
+--------------------------------------------------*/
+.video {
+    padding: 120px 0;
+}
+.video .left {
+    height: 330px;
+    background: url('/front/imgs/video.png') center center no-repeat;
+    background-size: cover;
+}
+.video .left .video-icon .icon {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
+    color: #ffffff;
+    display: inline;
+    font-size: 20px;
+    padding: 22px 28px;
+    border-radius: 200px;
+    position: relative;
+}
+
+/* Pulse Animation */
+.pulse {
+    animation: pulse 1s infinite;
+    animation-duration: 2s;
+}
+
+/* Keyframes */
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 50px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 50px rgba(255, 255, 255, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+.video .right h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #4a545e;
+    margin-bottom: 20px;
+}
+.video .right .line {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    height: 2px;
+    width: 50px;
+}
+.video .right p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 26px;
+    margin: 20px 0 0;
+    margin-bottom: 40px;
+}
+.video .right .btn-1 {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 35px;
+    box-shadow: 0px 15px 51px 0px rgba(0,0,0,0.24);
+    text-decoration: none;
+    margin-top: 10px;
+    transition: all 0.2s ease-in;
+}
+
+
+/*--------------------------------------------------
+[12. Start Media]
+--------------------------------------------------*/
+.media .box {
+    box-shadow: 2px 2px 20px 0 rgba(0,0,0,0.09);
+    padding: 30px;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+.media .box:hover {
+    transform: scale(1.02);
+}
+.media .box h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #4a545e;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+/*--------------------------------------------------
+[13. Start Price]
+--------------------------------------------------*/
+.price {
+    padding: 120px 0;
+}
+.price .heading {
+    margin-bottom: 40px;
+}
+.price .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #4a545e;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.price .heading .line {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    height: 2px;
+    width: 50px;
+}
+.price .heading p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 25px;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+.price .box {
+    box-shadow: 2px 2px 20px 0 rgba(0,0,0,0.09);
+    padding: 50px 5px;
+    border-radius: 10px;
+}
+.price .box h3 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #59646e;
+    margin: 0;
+    padding: 0;
+    margin: 20px 0 0px 0;
+}
+.price .box h3 span {
+    font-size: 30px;
+}
+.price .box p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a545e;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.price .box .gray-line {
+    background: #d2d2d2;
+    width: 250px;
+    height: 1px;
+}
+.price .box h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1fb497;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.price .box ul {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price .box ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #75808a;
+    width: 100%;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.price .box .btn-1 {
+    margin-top: 10px;
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 35px;
+    box-shadow: 0px 15px 51px 0px rgba(0,0,0,0.24);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.price .box-center {
+    box-shadow: 2px 2px 20px 0 rgba(0,0,0,0.12);
+    padding: 60px 5px;
+    border-radius: 10px;
+    background: url('/front/imgs/price-bg.png') center center no-repeat;
+    background-size: cover;
+}
+.price .box-center h3 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    margin: 20px 0 0px 0;
+}
+.price .box-center h3 span {
+    font-size: 30px;
+}
+.price .box-center p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.price .box-center .gray-line {
+    background: #ffffff;
+    width: 250px;
+    height: 1px;
+}
+.price .box-center h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.price .box-center ul {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price .box-center ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 100%;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.price .box-center .btn-1 {
+    background: #ffffff;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0);
+    text-decoration: none;
+    color: #4a545e;
+    border-radius: 65px;
+    padding: 10px 45px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    display: inline-block;
+    transition: all 0.2s ease-in;
+}
+
+
+/*--------------------------------------------------
+[14. Start Clients]
+--------------------------------------------------*/
+.clients {
+    background: #f4f5f8;
+    padding: 120px 0;
+}
+
+
+/*--------------------------------------------------
+[15. Start Contact]
+--------------------------------------------------*/
+.contact {
+    padding: 120px 0;
+}
+.contact .heading {
+    margin-bottom: 40px;
+}
+.contact .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #4a545e;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.contact .heading .line {
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    height: 2px;
+    width: 50px;
+}
+.contact .heading p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8995a1;
+    line-height: 25px;
+    padding: 0;
+    margin: 15px 0 0;
+}
+.contact .main {
+    background: #ffffff;
+    box-shadow: 1px 1px 20px 0 rgba(0,0,0,0.08);
+}
+.contact .main h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4a545e;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f8f8f9;
+    border: 0;
+    border-radius: 5px;
+}
+.contact button.btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-image: linear-gradient(135deg, #67d690 0%, #00a99d 100%);
+    color: #ffffff;
+}
+
+.contact .main .left {
+    padding: 40px 60px;
+}
+.contact .main .right {
+    background: url('../img/bg/contact-bg.png') center center no-repeat;
+    background-size: cover;
+    padding: 40px;
+    color: #ffffff;
+    height: 100%;
+}
+.contact .main .right h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.contact .main .right .info {
+    margin-bottom: 35px;
+}
+.contact .main .right .info i {
+    font-size: 25px;
+    color: #ffffff;
+}
+.contact .main .right .info span {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-left: 15px;
+}
+.contact .main .right .social a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+
+/*--------------------------------------------------
+[16. Start Footer]
+--------------------------------------------------*/
+.footer {
+    background: url('/front/imgs/footer.png') center center no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+.footer .content p {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------
+[17. Start Page Loading]
+--------------------------------------------------*/
+.no-js #loader {
+    display: none;
+}
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+.se-pre-con {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url("/front/imgs/Preloader_2.gif") center no-repeat #fff;
+}
+
+/*--------------------------------------------------
+[18. Start Media Query]
+--------------------------------------------------*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 383.98px) {
+    .navbar {
+        padding: 20px 30px;
+        background: linear-gradient(135deg, rgba(59, 36, 114, 1) 0%, rgba(113, 64, 145, 1) 100%) !important;
+    }
+    .navbar .nav-item .nav-link {
+        margin: 0;
+        margin: 15px 0;
+    }
+    .navbar .btn-1 {
+        margin: 0;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .slider {
+        height: auto;
+        padding: 90px 0;
+    }
+    .slider .content {
+        text-align: center;
+    }
+    .join .content {
+        text-align: center;
+    }
+    .join .content .left-box {
+        border: none;
+    }
+    .join .content .box {
+        margin-bottom: 30px;
+    }
+    .customer  {
+        text-align: center;
+    }
+    .customer .left {
+        margin-bottom: 40px;
+    }
+    .testimonials .control {
+        display: none;
+    }
+    .worked .box {
+        margin-bottom: 40px;
+    }
+    
+    .download  h2 {
+        margin-bottom: 30px;
+    }
+    .download {
+        text-align: center;
+    }
+    .video .left {
+        margin-bottom: 40px;
+    }
+    .media .box {
+        margin: 10px 0;
+    }
+    .price {
+        padding: 120px 0 90px 0;
+    }
+    .price .box {
+        margin-bottom: 30px;
+    }
+    .price .box-center {
+        margin-bottom: 30px;
+    }
+    .testimonials .carousel-item p {
+        font-size: 14px;
+    }
+
+
+
+    }
+
+@media (max-width: 575.98px) {
+    .navbar {
+        padding: 20px 30px;
+        background: linear-gradient(135deg, rgba(59, 36, 114, 1) 0%, rgba(113, 64, 145, 1) 100%) !important;
+    }
+    .navbar .nav-item .nav-link {
+        margin: 0;
+        margin: 15px 0;
+    }
+    .navbar .btn-1 {
+        margin: 0;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .slider {
+        height: auto;
+        padding: 90px 0;
+        text-align: center;
+    }
+    .slider img {
+        margin-top: 40px;
+    }
+    .join .content .left-box {
+        border: none;
+    }
+    .join .content .box {
+        margin-bottom: 30px;
+    }
+    .customer  {
+        text-align: center;
+    }
+    .customer .left {
+        margin-bottom: 40px;
+    }
+    .testimonials .control {
+        display: none;
+    }
+    .worked .box {
+        margin-bottom: 40px;
+    }
+    .download  h2 {
+        margin-bottom: 30px;
+    }
+    .download {
+        text-align: center;
+    }
+    .video .left {
+        margin-bottom: 40px;
+    }
+    .media .box {
+        margin: 10px 0;
+    }
+    .price {
+        padding: 120px 0 90px 0;
+    }
+    .price .box {
+        margin-bottom: 30px;
+    }
+    .price .box-center {
+        margin-bottom: 30px;
+    }
+
+    }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .navbar {
+        padding: 20px 30px;
+        background: linear-gradient(135deg, rgba(59, 36, 114, 1) 0%, rgba(113, 64, 145, 1) 100%) !important;
+    }
+    .navbar .nav-item .nav-link {
+        margin: 0;
+        margin: 15px 0;
+    }
+    .navbar .btn-1 {
+        margin: 0;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .slider {
+        height: auto;
+        padding: 90px 0;
+    }
+    .slider {
+        height: auto;
+        padding: 90px 0;
+        text-align: center;
+    }
+    .slider img {
+        margin-top: 40px;
+    }
+    .join .content .left-box {
+        border: none;
+    }
+    .join .content .box {
+        margin-bottom: 30px;
+    }
+    .customer  {
+        text-align: center;
+    }
+    .customer .left {
+        margin-bottom: 40px;
+    }
+    .testimonials .control {
+        display: none;
+    }
+    .worked .box {
+        margin-bottom: 40px;
+    }
+    .download  h2 {
+        margin-bottom: 30px;
+    }
+    .download {
+        text-align: center;
+    }
+    .video .left {
+        margin-bottom: 40px;
+    }
+    .media .box {
+        margin: 10px 0;
+    }
+    .price {
+        padding: 120px 0 90px 0;
+    }
+    .price .box {
+        margin-bottom: 30px;
+    }
+    .price .box-center {
+        margin-bottom: 30px;
+    }
+
+
+
+    }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar {
+        padding: 20px 30px;
+        background: linear-gradient(135deg, rgba(59, 36, 114, 1) 0%, rgba(113, 64, 145, 1) 100%) !important;
+    }
+    .navbar .nav-item .nav-link {
+        margin: 0;
+        margin: 15px 0;
+    }
+    .navbar .btn-1 {
+        margin: 0;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .slider {
+        height: auto;
+        padding: 90px 0;
+    }
+    .slider {
+        height: auto;
+        padding: 90px 0;
+        text-align: center;
+    }
+    .slider img {
+        margin-top: 40px;
+    }
+    .testimonials .control {
+        display: none;
+    }
+    .worked .box {
+        margin-bottom: 40px;
+    }
+
+
+    }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .slider {
+        height: auto;
+        padding: 90px 0;
+    }
+}
